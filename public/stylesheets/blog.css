@@ -87,7 +87,28 @@
   color: #353535;
   text-align: left;
 }
-
+a.underline{
+  display: inline-block;
+  position: relative;
+  transition: .3s all ease-in-out;
+}
+a.underline::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  left: auto;
+  right: 0;
+  background-color: grey;
+  height: 1px;
+  width: 0%;
+  transition: .3s all ease-in-out;
+}
+a.underline:hover::before{
+  width: 100%;
+  right: auto;
+  left: 0;
+}
 
 /*
  * Blog post
@@ -124,6 +145,18 @@
 .blog-post h2 {
   margin: 0;
 }
+.blog-post-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.blog-post-container a.underline{
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
 .blog-post-meta {
   color: #9A9A9A;
   font-family: 'Lato', sans-serif;
