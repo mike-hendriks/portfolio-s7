@@ -8,7 +8,7 @@ import { customLink } from '../../utils/prismicHelpers';
  */
 const TextBlock = ({ title, content }) => (
   <div className="textSection container">
-    <h2>{RichText.asText(title)}</h2>
+    {title ? <h2>{RichText.asText(title)}</h2> : null}
     <RichText
       render={content}
       linkResolver={linkResolver}

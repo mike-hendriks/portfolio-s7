@@ -6,7 +6,7 @@ import {
   Switch,
   Redirect
 } from 'react-router-dom';
-import { BlogHome, NotFound, Post, Preview } from './pages';
+import { BlogHome, NotFound, Post, Preview, Leeswijzer } from './pages';
 import { apiEndpoint } from './prismic-configuration';
 
 /**
@@ -26,6 +26,7 @@ const App = () => {
           <Redirect exact from='/blog/' to='/' />
           <Route exact path='/' component={BlogHome} />
           <Route exact path='/preview' component={Preview} />
+          <Route exact path='/leeswijzer' component={Leeswijzer} />
           <Route exact path='/blog/:uid' component={Post} />
           <Route component={NotFound} />
         </Switch>
