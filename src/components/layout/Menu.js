@@ -19,6 +19,8 @@ const Menu = (menuDoc) => {
             <a href="/">
               <span>Home</span>
             </a>
+          </li>
+          <li>
             <a href="/leeswijzer">
               <span>Leeswijzer</span>
             </a>
