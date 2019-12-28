@@ -11,17 +11,17 @@ const Menu = (menuDoc) => {
     return (
       <header className="site-header container">
         <RouterLink to="./">
-          <div key="test" className="logo">Portfolio Mike Hendriks</div>
+          <div key="titleKey" className="logo">Portfolio Mike Hendriks</div>
         </RouterLink>
         <nav>
           <ul>
           <li>
-            <a href="/">
+            <a href="/" className="underline">
               <span>Home</span>
             </a>
           </li>
           <li>
-            <a href="/leeswijzer">
+            <a href="/leeswijzer" className="underline">
               <span>Leeswijzer</span>
             </a>
           </li>

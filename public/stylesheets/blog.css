@@ -99,10 +99,13 @@ a.underline::before{
   width: 0;
   left: auto;
   right: 0;
-  background-color: grey;
+  background-color: #72767B;
   height: 1px;
   width: 0%;
   transition: .3s all ease-in-out;
+}
+a.underline:hover{
+  color: #72767B;
 }
 a.underline:hover::before{
   width: 100%;
