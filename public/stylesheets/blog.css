@@ -5,14 +5,9 @@
   max-width: 700px;
   margin: auto;
 }
-.blog-main,
 .home {
   max-width: 700px;
   margin: auto;
-}
-.blog-main{
-  border-bottom: 1px solid #DADADA;
-  margin-bottom: 50px;
 }
 .textSection{
   border-bottom: 1px solid #DADADA;
@@ -142,9 +137,6 @@ a.underline:hover::before{
 .back a:hover {
   text-decoration: underline;
 }
-.blog-post {
-  margin-bottom: 3rem;
-}
 .blog-post h2 {
   margin: 0;
 }
@@ -156,8 +148,11 @@ a.underline:hover::before{
 }
 
 .blog-post-container a.underline{
-  margin-right: 20px;
   margin-bottom: 20px;
+}
+
+.blog-post-container span{
+  margin: 0 20px;
 }
 
 .blog-post-meta {
@@ -420,13 +415,11 @@ footer a {
 }
 @media (max-width: 767px) {
   .home,
-  .blog-main,
   .container,
   footer {
     padding: 0 20px;
   }
-  .post-part,
-  .blog-main {
+  .post-part{
     font-size: 18px;
   }
   .post-part pre {

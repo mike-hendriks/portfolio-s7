@@ -17,13 +17,11 @@ const PostItem = ({ post }) => {
   
   return (
     <div className="blog-post">
-      <h2>Alle opdrachten</h2>
-      <br />
-      <div className="blog-post-container">
-        <Link to={linkResolver(post)} className="underline">
-          <span>{title}</span>
-        </Link>
-      </div>
+      {/* <br /> */}
+      <Link to={linkResolver(post)} className="underline">
+        {title}
+      </Link>
+      <span> - </span>
 
       {/* <PostDate date={post.data.date} />
       
