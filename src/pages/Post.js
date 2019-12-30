@@ -44,7 +44,7 @@ const Post = ({ match }) => {
     // const image = prismicDoc.data.image.url;
 
     return (
-      <DefaultLayout wrapperClass="main blogPost" title={title + "| Portfolio S5 Mike Hendriks"}>
+      <DefaultLayout wrapperClass="main blogPost" title={title + " | Portfolio S5 Mike Hendriks"}>
         <Menu></Menu>
         <div className="outer-container">
           <BackButton />
