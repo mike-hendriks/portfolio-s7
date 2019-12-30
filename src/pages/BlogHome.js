@@ -55,7 +55,7 @@ const BlogHome = () => {
           description={homeDoc.data.description}
         />
         <TextBlock title={homeDoc.data.assignment_block_title} content={homeDoc.data.assignment_block_content} />
-        <div className="container">
+        <div className="container textSection">
           <h2>Alle opdrachten</h2>
           <div className="blog-main">
             <PostList posts={blogPosts} />

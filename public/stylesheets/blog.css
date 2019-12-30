@@ -77,6 +77,10 @@
   font-family: 'Lato', sans-serif;
   border-bottom: 1px solid #DADADA;
 }
+.blog-main{
+  margin-bottom: 30px;
+}
+
 .blog-main h1,
 .blog-main h2 {
   color: #353535;
@@ -152,7 +156,7 @@ a.underline:hover::before{
 }
 
 .blog-post-container span{
-  margin: 0 20px;
+  margin: 0 10px;
 }
 
 .blog-post-meta {
