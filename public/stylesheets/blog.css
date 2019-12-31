@@ -86,10 +86,11 @@
   color: #353535;
   text-align: left;
 }
-a.underline{
+.post-part.single a, a.underline{
   display: inline-block;
   position: relative;
   transition: .3s all ease-in-out;
+  text-decoration: none;
 }
 a.underline::before{
   content: '';
