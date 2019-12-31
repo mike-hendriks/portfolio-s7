@@ -6,7 +6,8 @@ const GoogleDoc = ({ slice }) => {
   return (
     <div className="post-part single docEmbed">
       <div className="container">
-        <a href={docSrc} target="_blank">Bekijk document</a>
+        <a href={docSrc} target="_blank">Bekijk document extern</a>
+        <br/>
         <iframe src={docSrc} width="100%" height="900px"></iframe>
       </div>
     </div>
