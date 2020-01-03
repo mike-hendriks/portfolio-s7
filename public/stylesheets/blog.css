@@ -295,16 +295,11 @@ a.underline:hover::before{
  * Quote slice
  */
 .block-quotation {
-  margin-bottom: 2rem;
   display: inline-block;
-  font-style: italic;
-  font-size: 24px;
-}
-.block-quotation:before {
-  content: "« "
-}
-.block-quotation:after {
-  content: " »"
+  font-family: 'lato', sans-serif;
+  font-weight: 600;
+  padding: 10px 30px;
+  border-left: solid #FFF7C7 4px;
 }
 .block-citation {
   display: inline-block;
@@ -312,15 +307,6 @@ a.underline:hover::before{
   border-left: solid #B4B4B4 4px;
   padding-left: 10px;
 }
-@media screen and (min-width: 920px) {
-  .post-part.single .block-quotation {
-    width: 130%;
-    margin: 0 -15% 2rem -15%;
-    font-size: 30px;
-    padding: 0;
-  }
-}
-
 
 /*
  * Loader animation
