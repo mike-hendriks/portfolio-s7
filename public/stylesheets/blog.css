@@ -146,10 +146,7 @@ a.underline:hover::before{
   margin: 0;
 }
 .blog-post-container{
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  column-count: 2;
 }
 
 .blog-post-container a.underline{

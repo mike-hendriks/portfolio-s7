@@ -9,7 +9,7 @@ import { linkResolver } from '../../../prismic-configuration';
 /**
  * Post list item component
  */
-const PostItem = ({ post, last }) => {
+const PostItem = ({ post }) => {
   const title =
     RichText.asText(post.data.title) ?
     RichText.asText(post.data.title) :
@@ -18,9 +18,8 @@ const PostItem = ({ post, last }) => {
   return (
     <div className="blog-post">
       <Link to={linkResolver(post)} className="underline">
-        {title}
+        - {title}
       </Link>
-      {last ? null : <span>-</span> }
     </div>
   );
 };

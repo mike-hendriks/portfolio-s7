@@ -10,7 +10,7 @@ const PostList = ({ posts }) => {
     <div className="blog-post-container">
 
       {posts.map((post, i) => (
-        <PostItem post={post} key={post.id} last={postLength === i+1} />
+        <PostItem post={post} key={post.id} />
       ))}
     </div>
   );
