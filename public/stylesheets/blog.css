@@ -146,7 +146,7 @@ a.underline:hover::before{
   margin: 0;
 }
 .blog-post-container{
-  column-count: 2;
+  column-count: 1;
 }
 
 .blog-post-container a.underline{
@@ -458,6 +458,10 @@ footer a {
   }
   .blog-post-meta {
     font-size: 16px;
+  }
+
+  .blog-post-container{
+    column-count: 2;
   }
 }
 
