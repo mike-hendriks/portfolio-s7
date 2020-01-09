@@ -24,6 +24,9 @@ const Menu = (menuDoc) => {
             <a href="/leeswijzer" className="underline">
               <span>Leeswijzer</span>
             </a>
+            <a href="/blog/begrippenlijst" className="underline">
+              <span>Begrippenlijst</span>
+            </a>
           </li>
 
             {/* {menuDoc.menuDoc.data.menu_items.map(menuLink => (
