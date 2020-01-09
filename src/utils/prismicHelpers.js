@@ -5,9 +5,9 @@ import { apiEndpoint, accessToken, linkResolver } from '../prismic-configuration
 
 // Helper function to convert Prismic Rich Text links to React Link components
 export const customLink = (type, element, content, children, index) => (
-  <Link to={linkResolver(element.data)} key={index}>
+  <a href={element.data.url} target={element.data.target} key={index}>
     {content}
-  </Link>
+  </a>
 );
 
 // Client method to query documents from the Prismic repo
