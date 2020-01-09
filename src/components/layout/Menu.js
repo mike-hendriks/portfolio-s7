@@ -24,6 +24,8 @@ const Menu = (menuDoc) => {
             <a href="/leeswijzer" className="underline">
               <span>Leeswijzer</span>
             </a>
+          </li>
+          <li>
             <a href="/blog/begrippenlijst" className="underline">
               <span>Begrippenlijst</span>
             </a>
