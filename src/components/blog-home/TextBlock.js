@@ -7,7 +7,7 @@ import { customLink } from '../../utils/prismicHelpers';
  * TextBlock component
  */
 const TextBlock = ({ title, content }) => (
-  <div className="textSection container">
+  <div className="textSection container post-part">
     {title ? <h2>{RichText.asText(title)}</h2> : null}
     <RichText
       render={content}

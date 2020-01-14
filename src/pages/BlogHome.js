@@ -61,7 +61,6 @@ const BlogHome = () => {
             <PostList posts={blogPosts} />
           </div>
         </div>
-
         <TextBlock title={homeDoc.data.reflection_block_title} content={homeDoc.data.reflection_block_content} />
       </DefaultLayout>
     );
