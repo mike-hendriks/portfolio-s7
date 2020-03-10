@@ -1,5 +1,5 @@
-# Stageportfolio S5 - De Jongens van Boven
-Portfolio website voor semester 5, stage bij De Jongens van Boven. Website gemaakt met `React.js` & `Prismic.io`
+# Portfolio S6 - Society driven innovation
+Portfolio website voor semester 6, Fontys FHICT & Media Design - Society driven innovation. Website gemaakt met `React.js` & `Prismic.io`
 ### Install dependencies
 ```
 npm install
