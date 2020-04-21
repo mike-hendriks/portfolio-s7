@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link as RouterLink } from 'react-router-dom';
-import { RichText } from 'prismic-reactjs';
-import { PrismicLink } from './../prismic-elements';
+import React from "react";
+import { Link as RouterLink } from "react-router-dom";
+import { RichText } from "prismic-reactjs";
+import { PrismicLink } from "./../prismic-elements";
 
 /**
  * Site header/nav component
@@ -11,25 +11,27 @@ const Menu = (menuDoc) => {
     return (
       <header className="site-header container">
         <RouterLink to="./">
-          <div key="titleKey" className="logo">Portfolio Mike Hendriks</div>
+          <div key="titleKey" className="logo">
+            Portfolio Mike Hendriks
+          </div>
         </RouterLink>
         <nav>
           <ul>
-          <li>
-            <a href="/" className="underline">
-              <span>Home</span>
-            </a>
-          </li>
-          <li>
-            <a href="/leeswijzer" className="underline">
-              <span>Leeswijzer</span>
-            </a>
-          </li>
-          <li>
+            <li>
+              <a href="/" className="underline">
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="/leeswijzer" className="underline">
+                <span>Leeswijzer</span>
+              </a>
+            </li>
+            {/* <li>
             <a href="/blog/begrippenlijst" className="underline">
               <span>Begrippenlijst</span>
             </a>
-          </li>
+          </li> */}
 
             {/* {menuDoc.menuDoc.data.menu_items.map(menuLink => (
               <MenuLink
@@ -41,7 +43,7 @@ const Menu = (menuDoc) => {
       </header>
     );
   } else {
-    return ('Menu not found');
+    return "Menu not found";
   }
   return null;
 };
