@@ -71,12 +71,12 @@ const BlogHome = () => {
             <PostList posts={blogPosts} />
           </div>
         </div>
-        {homeDoc.data.reflection_block_title[0].text && (
+        {/* {homeDoc.data.reflection_block_title[0].text && (
           <TextBlock
             title={homeDoc.data.reflection_block_title}
             content={homeDoc.data.reflection_block_content}
           />
-        )}
+        )} */}
       </DefaultLayout>
     );
   } else if (notFound) {
