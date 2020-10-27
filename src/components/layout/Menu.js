@@ -1,7 +1,7 @@
 import React from "react";
 import { Link as RouterLink } from "react-router-dom";
-import { RichText } from "prismic-reactjs";
-import { PrismicLink } from "./../prismic-elements";
+// import { RichText } from "prismic-reactjs";
+// import { PrismicLink } from "./../prismic-elements";
 
 /**
  * Site header/nav component
@@ -45,20 +45,19 @@ const Menu = (menuDoc) => {
   } else {
     return "Menu not found";
   }
-  return null;
 };
 
 /**
  * Menu link component
  */
-const MenuLink = ({ menuLink }) => {
-  return (
-    <li key={RichText.asText(menuLink.page_title)}>
-      <PrismicLink link={menuLink.page_link}>
-        {RichText.asText(menuLink.page_title)}
-      </PrismicLink>
-    </li>
-  );
-};
+// const MenuLink = ({ menuLink }) => {
+//   return (
+//     <li key={RichText.asText(menuLink.page_title)}>
+//       <PrismicLink link={menuLink.page_link}>
+//         {RichText.asText(menuLink.page_title)}
+//       </PrismicLink>
+//     </li>
+//   );
+// };
 
 export default Menu;
