@@ -12,6 +12,12 @@ const Menu = (menuDoc) => {
       <header className="site-header container">
         <RouterLink to="./">
           <div key="titleKey" className="logo">
+            <img
+              src="/favicon.png"
+              alt="Mike Hendriks"
+              width="60px"
+              height="60px"
+            />
             Portfolio Mike Hendriks
           </div>
         </RouterLink>
