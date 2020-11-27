@@ -28,11 +28,11 @@ const Menu = (menuDoc) => {
                 <span>Home</span>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="/leeswijzer" className="underline">
                 <span>Leeswijzer</span>
               </a>
-            </li>
+            </li> */}
             {/* <li>
             <a href="/blog/begrippenlijst" className="underline">
               <span>Begrippenlijst</span>
