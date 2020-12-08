@@ -66,7 +66,7 @@ const BlogHome = () => {
           />
         )}
         <div className="container textSection">
-          <h2>All assignments</h2>
+          {/* <h2>All assignments</h2> */}
           <div className="blog-main">
             <PostList posts={blogPosts} />
           </div>
