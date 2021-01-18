@@ -25,6 +25,15 @@ const PostList = ({ posts }) => {
           ))}
       </div>
       <br />
+      <h2>Story creation</h2>
+      <div className="blog-post-container">
+        {posts
+          .filter((post) => post.data.subject === "Story creation")
+          .map((post, i) => (
+            <PostItem post={post} key={post.id} />
+          ))}
+      </div>
+      <br />
       <h2>Critical Design</h2>
       <div className="blog-post-container">
         {posts
