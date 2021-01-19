@@ -1,6 +1,9 @@
 /*
  * General
  */
+.main {
+  padding-bottom: 75px;
+}
 .container {
   max-width: 700px;
   margin: auto;
